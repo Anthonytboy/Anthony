@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/Css/style.css">
+  <link rel="shortcut icon" href="/images/vite.svg" type="image/x-icon">
+  <title>Add Jobs </title>
+
+</head>
+<body>
+   <!--Navbar-->
+   <nav class="navbar">
+    <div class="navbar-flex container">
+      <span>
+        <img src="images/vite.svg" alt="React">
+        <h2>React Jobs </h2>
+      </span>
+     
+      <div class="main-menu-item">
+         <ul class="main-menu-list">
+          <li>
+            <a href="index.html"> Home </a>
+          </li>
+           
+          <li>
+            <a href="jobs.html"> Jobs </a>
+          </li>
+
+          <li>
+            <a href="Add.html"> Add Job </a>
+          </li>
+         </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Form -->
+  <section class="contact-form section">       
+        <div class="container">
+          <div class="name">
+            <h2>Add Job </h2> 
+            <div class="form-flex">
+              <form action="/action_page.php" novalidate class="form">
+  
+                <div class="form-item">
+                  <label for="name">Job Type</label>
+                  <select name="Type" id="">
+                    <option value="Full-Time"> Full-Time </option>
+                    <option value="Full-Time"> Part-Time </option>
+                    <option value="Full-Time"> Remote </option>
+                    <option value="Full-Time"> Internship </option>
+                  </select>
+                </div>
+  
+                <div class="form-item">
+                  <label for="name">Job Listing Name </label>
+                  <input type="text" placeholder="eg,. Beautiful Apartment in Maimi">
+                </div>
+  
+                <div class="form-item">
+                  <label for="name">Job Listing Name </label>
+                  <textarea name="Message" id="message" placeholder="Add any job duties, expectations, requirements, etc."></textarea>
+                </div>
+  
+                <div class="form-item">
+                  <label for="name">Salary</label>
+                <select name="Type" id="cash">
+                  <option value="Full-Time"> Under $50K </option>
+                  <option value="Amount"> $50K-$60K</option>
+                  <option value="Amount"> $60K-$70K</option>
+                  <option value="Amount"> $70K-$80K</option>
+                  <option value="Amount"> $80K-$90K</option>
+                  <option value="Amount"> $90K-$100K</option>
+                  <option value="Amount"> $100K-$125K</option>
+                  <option value="Amount"> $125K-$150K</option>
+                  <option value="Amount"> $150K-$175K</option> 
+                  <option value="Amount"> $175K-$200K</option>
+                  <option value="Amount"> Over $200K</option>
+                  
+                </select>
+              </div>
+  
+              <div class="form-item">
+                <label for="name"> Location </label>
+                <input type="text" placeholder="Company Location">
+              </div>
+        
+              <h3> Company Info</h3>
+              <div class="form-item">
+                <label for="name"> Company Name </label>
+                <input type="text" placeholder="Comapany Name ">
+              </div>
+              
+              <div class="form-item">
+                <label for="name">Company Description</label>
+                <textarea name="Message" id="message" placeholder="What does your company do?" ></textarea>
+              </div>
+  
+              <div class="form-item">
+                <label for="name"> Contact Emails </label>
+                <input type="text" placeholder="Email address for applicants ">
+              </div>
+  
+              <div class="form-item">
+                <label for="name"> Contact Phone </label>
+                <input type="text" placeholder="Optional phone for applicants">
+              </div>
+
+              <div class="form-item">
+                <button class="btn4"> Add Job</button>
+              </div>
+              </form>
+
+            
+            </div>
+          </div>
+          
+      </div>
+
+  </section>
+  
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-flex">
+      <p> React &copy; 2024 Tboy </p>
+    </div>
+  </footer>
+</body>
+</html>
